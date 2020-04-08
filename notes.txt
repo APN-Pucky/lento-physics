@@ -1,4 +1,4 @@
 get infos : git log --format="%s %ad %H" -n1
 
-replace /Lentokonepeli : sed -i 's#/Lentokonepeli/#./' dist/*.html dist/*.js
+replace /Lentokonepeli : sed -i 's#/Lentokonepeli/#./#g' dist/*.html dist/*.js
 dist/**/*.js
